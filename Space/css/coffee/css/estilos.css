@@ -163,4 +163,6 @@ footer{
     background-color: #19a49c;
     color: whitesmoke;
 }
-
+#menu{
+    display: none;
+}
