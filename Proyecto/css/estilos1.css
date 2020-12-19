@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: 'Barlow Semi Condensed', sLight 500 italic
+    ;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    height: 70px;
+    border-bottom: 1px solid #c1c1c1;
+    width: 100%;
+    background-color: #F2B8EA ;
+}
+header>#logo{
+    padding-top: 15px;
+    float: left;
+    margin-left: 5%;
+}
+header>#logo>h2{
+    font-size: 1.5rem;
+}
+header>nav{
+    font-size: 1rem;
+    float: right;
+    width: 40%;
+    padding-top: 25px;
+}
+header nav>ul > li{
+    float: left;
+    width: 20%;
+    list-style: none;
+}
+header nav>ul > li>a{
+    text-decoration: none;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 400 ;
+    transition: 1s ease-in all;
+}
+header nav>ul > li>a:hover{
+    text-decoration: underline;
+
+}
